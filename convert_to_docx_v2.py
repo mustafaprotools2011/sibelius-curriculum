@@ -79,9 +79,13 @@ def add_page_number(doc):
     run._r.append(fldChar2)
 
 def clean_inline(text):
-    """Remove ** and __ markdown symbols from text."""
+    """Remove ** and __ markdown symbols from text, and fix bracket direction."""
     text = re.sub(r'\*\*(.+?)\*\*', r'\1', text)
     text = re.sub(r'__(.+?)__', r'\1', text)
+    # Fix bracket direction: wrap parentheses in Unicode direction marks
+    # This prevents Word from flipping ( and ) in RTL context
+    LRM = '\u200f'
+    text = re.sub(r'\(([^)]+)\)', LRM + r'(\1)' + LRM, text)
     return text
 
 def add_formatted_run(p, text, bold=False, italic=False, size=11, color=None, font='Calibri'):
