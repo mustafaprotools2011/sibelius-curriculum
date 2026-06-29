@@ -495,12 +495,20 @@ def create_semester_doc(lesson_files, output_name, semester_title, part_label):
     
     # Set section RTL
     sectPr = section._sectPr
+    # Add bidi to section
     rtl_sect = OxmlElement('w:bidi')
     rtl_sect.set(qn('w:val'), '1')
-    # Find or create docGrid
+    sectPr.append(rtl_sect)
+    
+    # Remove docGrid that forces left-to-right
     docGrid = sectPr.find(qn('w:docGrid'))
     if docGrid is not None:
         sectPr.remove(docGrid)
+    
+    # Set text direction on section
+    textDir = OxmlElement('w:textDirection')
+    textDir.set(qn('w:val'), 'lrTb')
+    sectPr.append(textDir)
     
     add_page_number(doc)
     
