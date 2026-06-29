@@ -23,7 +23,7 @@
 
 ### 1. النظري | Theory (10 min)
 
-#### البستة (Al-Basta)
+**البستة (Al-Basta)**
 - إيقاع إماراتي تقليدي
 - 4/4: **DUM - TAK - DUM TAK - TAK**
 - يُستخدم في الرقصات الإماراتية
@@ -31,7 +31,7 @@
 | DUM | (Rest) | TAK | (Rest) | DUM | TAK | TAK | (Rest) |
 | Noire | Noire Rest | Noire | Noire Rest | Noire | Croche | Croche | (Rest) |
 
-#### المعلاية (Al-Ma'laya)
+**المعلاية (Al-Ma'laya)**
 - إيقاع يمني انتشر في الخليج
 - 4/4: **DUM TAK TAK DUM TAK TAK DUM TAK**
 

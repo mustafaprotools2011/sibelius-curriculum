@@ -23,12 +23,12 @@
 
 ### 1. النظري | Theory (10 min)
 
-#### الثلاثيات (Triplets)
+**الثلاثيات (Triplets)
 - **Triplet:** 3 نوتات في زمن نوتتين
 - Triplet من Croche: 3 Croche في زمن 2 Croche = 1 Noire
 - الرمز: 3 فوق/تحت الـ Beam
 
-#### أنواع Tuplets
+**أنواع Tuplets
 | النوع | العدد | الزمن |
 |-------|-------|-------|
 | Triplet | 3 | في زمن 2 |
@@ -36,14 +36,14 @@
 | Sextuplet | 6 | في زمن 4 |
 | Septuplet | 7 | في زمن 4 |
 
-#### في الموسيقى العربية
+**في الموسيقى العربية
 تستخدم الثلاثيات بكثرة في تزيين الألحان (تقسيمات العود).
 
 ---
 
 ### 2. التطبيق العملي | Practice (30 min)
 
-#### تمرين 1: إدخال Triplet (10 دقائق)
+**تمرين 1: إدخال Triplet (10 دقائق)
 1. Sibelius → Treble Clef → 4/4 → C Major
 2. **طريقة إدخال Triplet:**
    - اضغط **N** (Note Input)
@@ -58,7 +58,7 @@
 مازورة 2: | [A B C Triplet] | [B A G Triplet] | (Rest) |
 ```
 
-#### تمرين 2: أنماط ثلاثية (10 دقائق)
+**تمرين 2: أنماط ثلاثية (10 دقائق)
 ```
 مازورة 1: C D E (Triplet) | F G A (Triplet) | B C B (Triplet) | A G F (Triplet) |
 مازورة 2: E F G (Triplet) | D E F (Triplet) | C (Ronde) | (Rest) |
@@ -68,7 +68,7 @@
 - 4 Croche: C C C C
 - 3 Triplet Croche: C D E
 
-#### تمرين 3: Triplet في النهاوند (10 دقائق)
+**تمرين 3: Triplet في النهاوند (10 دقائق)
 ```
 مازورة 1-4 (نهاوند هارموني مع Triplets):
 | A (Noire) | B C D (Triplet) | E (Noire) | F G♯ A (Triplet) |

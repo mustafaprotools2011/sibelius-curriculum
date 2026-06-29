@@ -22,12 +22,12 @@
 ---
 
 ### 1. النظري | Theory (10 min)
-#### إيقاع الوحدة (Wahda)
+**إيقاع الوحدة (Wahda)
 الوحدة من الإيقاعات العربية الأصيلة في 4/4:
 - DUM (يمين) - (سكتة) - TAK (يسار) - (سكتة)
 - D - - T - - - D - T -
 
-#### النقطة الإيقاعية (Dotted Note)
+**النقطة الإيقاعية (Dotted Note)
 - **النقطة تضيف نصف قيمة النوتة**
 - Dotted Noire = Noire + Croche = 3 Croche = 1.5 دقة
 - Dotted Croche = Croche + Double Croche = 3 Double Croche = 3/4 دقة
@@ -43,7 +43,7 @@
 
 ### 2. التطبيق العملي | Practice (30 min)
 
-#### تمرين 1: Dotted Notes (10 دقائق)
+**تمرين 1: Dotted Notes (10 دقائق)
 1. Sibelius → Treble Clef → 4/4
 2. اختر **Noire** من Keypad
 3. اضغط **.** (نقطة) ← تصبح Dotted Noire
@@ -53,7 +53,7 @@
 مازورة 2: G. (Dotted Noire) | A (Croche) | B. (Dotted Noire) | C (Croche) |
 ```
 
-#### تمرين 2: إيقاع الوحدة (10 دقائق)
+**تمرين 2: إيقاع الوحدة (10 دقائق)
 ```
 مازورة 1: C. (Dotted Noire) | - (Croche Rest)C (Croche) | (أو DUM - TAK -)
 مازورة 2: C. (Dotted Noire) | - (Croche Rest)C (Croche) |
@@ -67,7 +67,7 @@ DUM  -   TAK  -
 دقة 1 (DUM) دقة 1.5 (TAK)
 ```
 
-#### تمرين 3: لحن عجم مع الوحدة (10 دقائق)
+**تمرين 3: لحن عجم مع الوحدة (10 دقائق)
 ```
 مازورة 1: C. (Dotted Noire) | E (Croche) |
 مازورة 2: G. (Dotted Noire) | G (Croche) |

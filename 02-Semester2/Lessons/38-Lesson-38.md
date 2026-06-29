@@ -23,14 +23,14 @@
 
 ### 1. النظري | Theory (10 min)
 
-#### السامري (Al-Sameri)
+**السامري (Al-Sameri)**
 - إيقاع نبطي، يصاحبه الشعر النبطي
 - 2/4: **DUM TAK TAK DUM TAK** أو 4/4
 
 | DUM | TAK | (Rest) | TAK | (Rest) |
 | Noire | Noire | (Noire Rest) | Noire | (Noire Rest) |
 
-#### الحربي (Al-Harbi)
+**الحربي (Al-Harbi)**
 - إيقاع حربي سريع
 - 4/4: **DUM TAK DUM TAK TAK DUM TAK TAK**
 - يُستخدم في الأغاني الحربية

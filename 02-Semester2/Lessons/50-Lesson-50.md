@@ -28,7 +28,7 @@ description: "Bilingual lesson (Arabic/English) on Maqam Huzam — a variant of 
 
 ### English Version
 
-#### 1. Theory — What is Maqam Huzam? (10 min)
+**1. Theory — What is Maqam Huzam? (10 min)**
 
 Maqam Huzam (هزام) is a compound maqam that blends the flavor of **Maqam Hijaz** with the starting point of **Maqam Sikah**. It is essentially a **Hijaz scale built on E♭ (Sikah position)**.
 
@@ -82,7 +82,7 @@ DUM = low, heavy stroke. TAK = lighter strokes.
 
 ---
 
-#### 2. Practical — Writing Huzam in Sibelius (30 min)
+**2. Practical — Writing Huzam in Sibelius (30 min)**
 
 **Exercise 1: Huzam Scale (10 min)**
 
@@ -139,7 +139,7 @@ Bar 8:  | E♭ (Blanche, fermata)  |
 
 ---
 
-#### 3. Hearing Connection (5 min)
+**3. Hearing Connection (5 min)**
 
 Huzam is widely used in **Iraqi maqam** and **Aleppo muwashahat**. If possible, listen to:
 - A traditional Huzam taqsim on oud or violin
@@ -149,7 +149,7 @@ Huzam is widely used in **Iraqi maqam** and **Aleppo muwashahat**. If possible, 
 
 ### النسخة العربية
 
-#### 1. النظري — ما هو مقام الهزام؟ (10 دقائق)
+**1. النظري — ما هو مقام الهزام؟ (10 دقائق)**
 
 مقام الهزام هو مقام مركب يمزج نكهة **مقام الحجاز** مع نقطة بداية **مقام السيكاه**. هو في الأساس **سلم حجاز مبني على E♭ (مكان السيكاه)**.
 
@@ -199,7 +199,7 @@ DUM = ضربة ثقيلة منخفضة. TAK = ضربات خفيفة.
 
 ---
 
-#### 2. التطبيق العملي — كتابة الهزام في Sibelius (30 دقيقة)
+**2. التطبيق العملي — كتابة الهزام في Sibelius (30 دقيقة)**
 
 **تمرين 1: سلم الهزام (10 دقائق)**
 
@@ -256,7 +256,7 @@ DUM = ضربة ثقيلة منخفضة. TAK = ضربات خفيفة.
 
 ---
 
-#### 3. الربط السمعي (5 دقائق)
+**3. الربط السمعي (5 دقائق)**
 
 يستخدم الهزام بكثرة في **المقام العراقي** و**الموشحات الحلبية**. استمع إن أمكن إلى:
 - تقاسيم هزام حرة على العود أو الكمان
@@ -266,7 +266,7 @@ DUM = ضربة ثقيلة منخفضة. TAK = ضربات خفيفة.
 
 ### ⌨️ Keyboard Shortcuts / الشورتكات
 
-#### English
+**English**
 
 | # | Shortcut | Function | Why for Lesson 50 |
 |---|----------|----------|-------------------|
@@ -276,7 +276,7 @@ DUM = ضربة ثقيلة منخفضة. TAK = ضربات خفيفة.
 | 4 | **+** (Numpad) | Sharp (دييز) | Enter G♯ and C♯ quickly |
 | 5 | **Ctrl+Shift+B** | Add Barline | Organize rhythmic structure |
 
-#### العربية
+**العربية**
 
 | # | الاختصار | الوظيفة | لماذا في الدرس 50 |
 |---|----------|---------|-------------------|
@@ -290,7 +290,7 @@ DUM = ضربة ثقيلة منخفضة. TAK = ضربات خفيفة.
 
 ### ✅ 4 MCQ / 4 أسئلة اختيار من متعدد
 
-#### English
+**English**
 
 **Q1 (Historical):** Which maqam forms the foundation of the upper jins in Maqam Huzam?
 - a) Maqam Rast
@@ -316,7 +316,7 @@ DUM = ضربة ثقيلة منخفضة. TAK = ضربات خفيفة.
 - c) Huzam is in a different key signature
 - d) Huzam has no half flats
 
-#### العربية
+**العربية**
 
 **س1 (تاريخي):** أي مقام يشكل أساس الجنس العلوي في مقام الهزام؟
 - أ) مقام راست
@@ -346,7 +346,7 @@ DUM = ضربة ثقيلة منخفضة. TAK = ضربات خفيفة.
 
 ### ✍️ Homework / الواجب
 
-#### English
+**English**
 
 **Task:** Create a 16-bar piece in Maqam Huzam with Maalaya rhythm (2/4).
 
@@ -367,7 +367,7 @@ DUM = ضربة ثقيلة منخفضة. TAK = ضربات خفيفة.
 | **Completeness** | All 16 bars complete with dynamics | 12-15 bars complete | Less than 12 bars |
 | **Presentation** | Clean layout, proper beaming, titled, PDF exported | Acceptable layout, some beaming issues | Messy layout, no PDF |
 
-#### العربية
+**العربية**
 
 **الواجب:** أنشئ مقطوعة من 16 مازورة في مقام الهزام مع إيقاع معلاية (2/4).
 

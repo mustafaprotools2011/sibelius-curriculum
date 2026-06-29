@@ -23,18 +23,18 @@
 
 ### 1. النظري | Theory (10 min)
 
-#### إيقاع المقسوم (Maqsum)
+**إيقاع المقسوم (Maqsum)
 المقسوم هو الإيقاع الأكثر انتشاراً في الموسيقى العربية. تركيبه:
 - **D | D D D D |** (D = DUM, t = TAK)
 - **D - t - D - - -** 
 - **DUM (يمين) | TAK (يسار) | DUM (يمين) | TAK (يسار)**
 
-#### Double Croche (ست عشري)
+**Double Croche (ست عشري)
 - Double Croche = 1/4 من Noire
 - 4 Double Croche = 1 Noire
 - تظهر مع Beam مزدوج
 
-#### مقام العجم (Ajam = C Major)
+**مقام العجم (Ajam = C Major)
 - لا يوجد علامات عرضية
 - C D E F G A B C
 - يسمى "مقام العجم"
@@ -43,7 +43,7 @@
 
 ### 2. التطبيق العملي | Practice (30 min)
 
-#### تمرين 1: إيقاع المقسوم (10 دقائق)
+**تمرين 1: إيقاع المقسوم (10 دقائق)
 1. افتح Sibelius → Treble Clef → 4/4
 2. اكتب إيقاع المقسوم على نوتة واحدة (C):
 ```
@@ -58,7 +58,7 @@ C    -    C    C    -
 (Noire) | (Croche Rest)(Croche Rest) | (Noire) | (Noire) | (Croche Rest)(Croche Rest)
 ```
 
-#### تمرين 2: Double Croche (10 دقائق)
+**تمرين 2: Double Croche (10 دقائق)
 1. اختر **Double Croche** من Keypad (الزر 5)
 2. اكتب: C C C C D D D D E E E E F F F F (كلها Double Croche في 4/4)
 3. لاحظ: 4 Double Croche تأخذ زمن Noire واحدة
@@ -68,7 +68,7 @@ C    -    C    C    -
 1 Ronde = 2 Blanche = 4 Noire = 8 Croche = 16 Double Croche
 ```
 
-#### تمرين 3: مقام العجم مع المقسوم (10 دقائق)
+**تمرين 3: مقام العجم مع المقسوم (10 دقائق)
 1. اكتب سلم العجم (C Major) مع إيقاع المقسوم:
 ```
 مازورة 1: C (Noire) | (Rest) | D (Noire) | E (Noire) |

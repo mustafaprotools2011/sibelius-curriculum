@@ -23,14 +23,14 @@
 
 ### 1. النظري | Theory (10 min)
 
-#### ربع الهجع (Rub' Al-Haja) – 4/4
+**ربع الهجع (Rub' Al-Haja) – 4/4**
 - نسخة أخف وأسرع من الهجع
 - نمط: **DUM TAK TAK DUM TAK**
 
 | DUM | TAK | TAK | DUM | TAK |
 | C. (Dotted Noire) | C (Croche) | C (Croche) | C (Croche) | C (Croche) |
 
-#### الخشابة (Al-Khashaba) – 4/4
+**الخشابة (Al-Khashaba) – 4/4**
 - إيقاع عراقي شعبي
 - نمط: **DUM DUM TAK TAK TAK**
 

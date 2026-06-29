@@ -26,7 +26,7 @@
 ---
 ### 1. النظري | Theory (10 min)
 
-#### لماذا Engraving مهم؟
+**لماذا Engraving مهم؟**
 
 النوتة الموسيقية ليست مجرد نوتات — هي وثيقة بصرية. **Engraving** هو فن ترتيب النوتات والرموز على الصفحة بحيث تكون سهلة القراءة وجميلة المظهر. Sibelius يحتوي على محرك نقش (Engraving Engine) قوي جداً، لكن النتائج الافتراضية ليست دائماً مثالية.
 
@@ -37,7 +37,7 @@
 3. **اتجاه الأعواد (Stem Direction):** فوق الخط الأوسط للStaff → العود للأسفل. تحت الخط الأوسط → العود للأعلى. القاعدة بسيطة لكن Sibelius أحياناً يحتاج تعديلاً يدوياً.
 4. **المازورات (Bars):** يجب توزيع المازورات بالتساوي عبر الصفحة — لا مازورات قصيرة جداً أو طويلة جداً في سطر واحد.
 
-#### ما هو Layout Optimization؟
+**ما هو Layout Optimization؟**
 
 **Layout** يتحكم في كيفية ترتيب الصفحات: كم عدد المازورات في كل سطر (System)، كم عدد الأسطر في كل صفحة، حجم الهوامش (Margins)، وغيرها.
 
@@ -46,7 +46,7 @@ Sibelius لديه ثلاثة مفاهيم رئيسية:
 - **Part:** جزء منفرد لآلة واحدة — يُستخرج من الـ Score
 - **System:** سطر واحد من الموسيقى في الـ Score أو الـ Part
 
-#### ما هي Percussion Notation؟
+**ما هي Percussion Notation؟**
 
 كتابة الإيقاع (Percussion) في Sibelius تختلف عن كتابة النوتات اللحنية:
 - كل آلة إيقاعية (Drum, Snare, Hi-Hat, Bass Drum) لها **صوت (Sound)** و**خط (Staff position)** خاص بها
@@ -63,14 +63,14 @@ Sibelius لديه ثلاثة مفاهيم رئيسية:
 | Crash Cymbal | CC | أول خط إضافي (Leager line) | X |
 | Ride Cymbal | RC | آخر خط | X |
 
-#### ما هي Custom Shortcuts؟
+**ما هي Custom Shortcuts؟**
 
 Sibelius يسمح لك بإنشاء اختصارات لوحة مفاتيح (Keyboard Shortcuts) مخصصة لأي أمر أو أداة. هذا مفيد جداً للمهام المتكررة. يمكنك أيضاً حفظ ملف الـ Shortcuts لاستخدامه على أجهزة أخرى.
 
 ---
 ### 2. التطبيق العملي | Practice (30 min)
 
-#### تمرين 1: ضبط Engraving Rules (7 دقائق)
+**تمرين 1: ضبط Engraving Rules (7 دقائق)**
 
 1. افتح Sibelius → **Blank Score** → Treble Clef → 4/4 → اختر أي Key Signature
 2. اكتب 4 مازورات عشوائية — مثلاً سلم Do-Re-Mi-Fa-Sol-La-Si-Do مع بعض Noires و Croches و Doubles Croches
@@ -92,7 +92,7 @@ Sibelius يسمح لك بإنشاء اختصارات لوحة مفاتيح (Keyb
 7. اضغط **OK** لتطبيق التغييرات
 8. الآن قارن بين شكل النوتة قبل وبعد — الفرق واضح في احترافية المظهر
 
-#### تمرين 2: تحسين Layout (7 دقائق)
+**تمرين 2: تحسين Layout (7 دقائق)**
 
 1. استمر في نفس الملف، أو افتح ملفاً جديداً بـ 16 مازورة
 2. اذهب إلى:
@@ -116,7 +116,7 @@ Sibelius يسمح لك بإنشاء اختصارات لوحة مفاتيح (Keyb
 7. جرب هذا: ضع System Break كل 4 مازورات — سترى كل 4 مازورات في سطر واحد
 8. ضع Page Break عند المازورة 13 — سترى بداية صفحة جديدة من المازورة 13
 
-#### تمرين 3: استخراج Parts (6 دقائق)
+**تمرين 3: استخراج Parts (6 دقائق)**
 
 1. أنشئ ملفاً بأكثر من آلة — مثلاً اختر **Wind Quintet** أو **String Quartet** من القوالب (Templates):
    - **File** → **New** → **Ensemble** → اختر **String Quartet**
@@ -140,7 +140,7 @@ Sibelius يسمح لك بإنشاء اختصارات لوحة مفاتيح (Keyb
 - دائماً اضبط Layout الـ Parts بعد الاستخراج — الـ Parts تحتاج تنسيقاً مختلفاً عن الـ Score
 - استخدم **Edit Part Appearance** (Parts tab → Edit Part Appearance) لتغيير شكل كل Part على حدة
 
-#### تمرين 4: كتابة الإيقاع (Percussion Notation) (5 دقائق)
+**تمرين 4: كتابة الإيقاع (Percussion Notation) (5 دقائق)**
 
 1. **File** → **New** → **Blank Score**
 2. في نافذة New Score:
@@ -174,7 +174,7 @@ Sibelius يسمح لك بإنشاء اختصارات لوحة مفاتيح (Keyb
    - استخدم **Triolet (Ctrl+3)** مع Bass Drum و Snare — هذا يعطي "دربكة" أو Fill جميل
    - اكتب BD-SD-BD-SD في Triolet على آخر مازورة
 
-#### تمرين 5: إنشاء Custom Shortcuts (5 دقائق)
+**تمرين 5: إنشاء Custom Shortcuts (5 دقائق)**
 
 1. **File** → **Preferences** → **Keyboard Shortcuts** (أو اضغط على أيقونة الترس في Sibelius)
 2. في نافذة Keyboard Shortcuts:
