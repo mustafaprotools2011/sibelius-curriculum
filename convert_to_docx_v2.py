@@ -24,9 +24,33 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 def set_rtl(paragraph):
     """Set paragraph to right-to-left."""
     pPr = paragraph._p.get_or_add_pPr()
+    # Remove any existing bidi
+    for old in pPr.findall(qn('w:bidi')):
+        pPr.remove(old)
     rtl = OxmlElement('w:bidi')
     rtl.set(qn('w:val'), '1')
     pPr.append(rtl)
+    # Set text direction
+    textDir = OxmlElement('w:textDirection')
+    textDir.set(qn('w:val'), 'lrTb')  # right-to-left text flow
+    pPr.append(textDir)
+
+def make_run_rtl(run):
+    """Force a run to be RTL."""
+    rPr = run._r.get_or_add_rPr()
+    # Remove existing rtl
+    for old in rPr.findall(qn('w:rtl')):
+        rPr.remove(old)
+    rtl = OxmlElement('w:rtl')
+    rtl.set(qn('w:val'), '1')
+    rPr.append(rtl)
+    # Also set complex script font for Arabic
+    csFont = OxmlElement('w:rFonts')
+    csFont.set(qn('w:cs'), 'Calibri')
+    rPr.append(csFont)
+    szCs = OxmlElement('w:szCs')
+    szCs.set(qn('w:val'), str(int(run.font.size.pt * 2)) if run.font.size else '22')
+    rPr.append(szCs)
 
 def set_cell_shading(cell, color):
     shading = OxmlElement('w:shd')
@@ -62,7 +86,6 @@ def clean_inline(text):
 
 def add_formatted_run(p, text, bold=False, italic=False, size=11, color=None, font='Calibri'):
     """Add a run with formatting to a paragraph."""
-    # Split on inline markers and process
     text = clean_inline(text)
     run = p.add_run(text)
     run.font.size = Pt(size)
@@ -71,6 +94,7 @@ def add_formatted_run(p, text, bold=False, italic=False, size=11, color=None, fo
     run.italic = italic
     if color:
         run.font.color.rgb = RGBColor(*color)
+    make_run_rtl(run)
     return run
 
 def new_para(doc, text='', style='para', bold=False, size=11, color=None, 
@@ -107,6 +131,7 @@ def add_heading(doc, text, level=1, rtl=True):
     run.font.name = 'Calibri'
     run.bold = True
     run.font.color.rgb = RGBColor(*colors[level])
+    make_run_rtl(run)
     return p
 
 # ─── markdown parser ───
@@ -227,6 +252,7 @@ def table_to_docx(doc, rows):
             run = p.add_run(clean_inline(cell_text))
             run.font.size = Pt(9)
             run.font.name = 'Calibri'
+            make_run_rtl(run)
             if ri == 0:
                 run.font.bold = True
                 run.font.color.rgb = RGBColor(0xFF, 0xFF, 0xFF)
@@ -303,6 +329,7 @@ def process_lesson(doc, md_text):
             run = p.add_run('• ' + clean_inline(content))
             run.font.size = Pt(11)
             run.font.name = 'Calibri'
+            make_run_rtl(run)
         elif btype == 'numbered':
             p = doc.add_paragraph()
             set_rtl(p)
@@ -310,6 +337,7 @@ def process_lesson(doc, md_text):
             run = p.add_run(clean_inline(content))
             run.font.size = Pt(11)
             run.font.name = 'Calibri'
+            make_run_rtl(run)
         elif btype == 'para':
             if content.strip():
                 p = doc.add_paragraph()
@@ -320,6 +348,7 @@ def process_lesson(doc, md_text):
                 run.font.size = Pt(11)
                 run.font.name = 'Calibri'
                 run.bold = is_bold
+                make_run_rtl(run)
         elif btype == 'table':
             rows = parse_table_rows(content)
             if rows:
@@ -332,6 +361,7 @@ def process_lesson(doc, md_text):
             run.font.size = Pt(9)
             run.font.name = 'Courier New'
             run.font.color.rgb = RGBColor(0x33, 0x33, 0x33)
+            make_run_rtl(run)
             # Light grey bg
             from docx.oxml import OxmlElement
             shading = OxmlElement('w:shd')
@@ -393,6 +423,7 @@ def render_mcq_table(doc, rows):
         run.font.size = Pt(10)
         run.font.bold = True
         run.font.color.rgb = RGBColor(0xFF, 0xFF, 0xFF)
+        make_run_rtl(run)
         set_cell_shading(cell, '2C3E6B')
     
     for qi, q in enumerate(questions):
@@ -427,6 +458,7 @@ def render_mcq_table(doc, rows):
         run = qp.add_run(display[:200])  # limit length
         run.font.size = Pt(9)
         run.font.name = 'Calibri'
+        make_run_rtl(run)
         
         # Answer cell
         ap = a_cell.paragraphs[0]
@@ -437,6 +469,7 @@ def render_mcq_table(doc, rows):
         run2.font.name = 'Calibri'
         run2.font.bold = True
         run2.font.color.rgb = RGBColor(0x1B, 0x7A, 0x2B)
+        make_run_rtl(run2)
         
         if qi % 2 == 0:
             set_cell_shading(q_cell, 'F0F4FF')
@@ -517,10 +550,12 @@ def create_semester_doc(lesson_files, output_name, semester_title, part_label):
         run.font.size = Pt(11)
         run.font.bold = True
         run.font.name = 'Calibri'
+        make_run_rtl(run)
         run2 = p.add_run(f' — {clean_title}')
         run2.font.size = Pt(11)
         run2.font.name = 'Calibri'
         run2.font.color.rgb = RGBColor(0x66, 0x66, 0x66)
+        make_run_rtl(run2)
     
     doc.add_page_break()
     
