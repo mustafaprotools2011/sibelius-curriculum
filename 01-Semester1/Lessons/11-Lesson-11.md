@@ -95,7 +95,7 @@ DUM  -   TAK  -
 
 ---
 
-### 5. تطبيق العود | Oud Application
+### 5. تطبيق عملي | Practical Application
 اعزف إيقاع الوحدة: DUM (يد) - (سكتة قصيرة) - TAK (أصابع) - (سكتة). DUM طويل (Dotted Noire)، TAK قصير (Croche).
 
 ---

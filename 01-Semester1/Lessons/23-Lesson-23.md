@@ -67,7 +67,7 @@
 
 ---
 
-### 5. تطبيق العود | Oud Application
+### 5. تطبيق عملي | Practical Application
 اعزف تقسيمة نهاوند مع Triplets: A (طويل) ثم B-C-D (Triplet سريع).
 
 ---

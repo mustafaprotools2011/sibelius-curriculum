@@ -100,7 +100,7 @@ DUM TAK (سكتة) DUM DUM TAK
 
 ---
 
-### 5. تطبيق العود | Oud Application
+### 5. تطبيق عملي | Practical Application
 اعزف الجوبي: DUM (ريشة على C) - TAK TAK (خلف على E-G). الهجع: DUM ثقيل - TAK - سكتة.
 
 ---

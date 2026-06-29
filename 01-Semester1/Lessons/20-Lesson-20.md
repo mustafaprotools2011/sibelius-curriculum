@@ -105,7 +105,7 @@
 
 ---
 
-### 5. تطبيق العود | Oud Application
+### 5. تطبيق عملي | Practical Application
 اعزف العبارة: A C E A - G♯ B E G♯ - F A C F - E (نهاية). لاحظ الإحساس العاطفي.
 
 ---
