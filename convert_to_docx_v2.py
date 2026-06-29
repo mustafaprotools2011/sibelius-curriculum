@@ -175,9 +175,9 @@ def parse_md_sections(md_text):
         elif line.startswith('### '):
             blocks.append(('h3', line[4:]))
         elif line.startswith('#### '):
-            blocks.append(('h4', line[5:]))
+            blocks.append(('subheading', line[5:]))
         elif line.startswith('##### '):
-            blocks.append(('h4', line[6:]))
+            blocks.append(('subheading', line[6:]))
         elif line.strip().startswith('---'):
             blocks.append(('hr', ''))
         elif line.strip().startswith('|'):
@@ -326,6 +326,16 @@ def process_lesson(doc, md_text):
             add_heading(doc, content, 3)
         elif btype == 'h4':
             add_heading(doc, content, 4)
+        elif btype == 'subheading':
+            p = doc.add_paragraph()
+            set_rtl(p)
+            p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
+            run = p.add_run(clean_inline(content))
+            run.font.size = Pt(11)
+            run.font.name = 'Calibri'
+            run.bold = True
+            run.font.color.rgb = RGBColor(0x33, 0x33, 0x33)
+            make_run_rtl(run)
         elif btype == 'bullet':
             p = doc.add_paragraph()
             set_rtl(p)
