@@ -42,7 +42,7 @@
 | ii (Supertonic) | **Dm** | D-F-A | حزين قليلاً، انتقالي |
 | iii (Mediant) | **Em** | E-G-B | حزين، جميل |
 | IV (Subdominant) | **F** | F-A-C | مشرق، رحيل عن البيت |
-| V (Dominant) | **G** | G-B-D | متوتر، يريد العودة |
+| V (Dominant) | **G** | G-B-D | متوتر، يريد آلتك الموسيقية |
 | vi (Submediant) | **Am** | A-C-E | حزين، دافئ |
 | vii° (Leading Tone) | **Bdim** | B-D-F | متوتر جداً، نادر |
 
