@@ -79,9 +79,13 @@ def add_page_number(doc):
     run._r.append(fldChar2)
 
 def clean_inline(text):
-    """Remove ** and __ markdown symbols from text, and fix bracket direction."""
+    """Remove **, __, ###, --- markdown symbols from text, and fix bracket direction."""
     text = re.sub(r'\*\*(.+?)\*\*', r'\1', text)
     text = re.sub(r'__(.+?)__', r'\1', text)
+    # Remove ### headings that slipped through as inline text
+    text = re.sub(r'^###+ ', '', text, flags=re.MULTILINE)
+    # Remove --- markers
+    text = re.sub(r'^---+$', '', text, flags=re.MULTILINE)
     # Fix bracket direction: wrap parentheses in Unicode direction marks
     # This prevents Word from flipping ( and ) in RTL context
     LRM = '\u200f'
@@ -180,6 +184,8 @@ def parse_md_sections(md_text):
             blocks.append(('subheading', line[6:]))
         elif line.strip().startswith('---'):
             blocks.append(('hr', ''))
+            i += 1
+            continue
         elif line.strip().startswith('|'):
             # Collect table
             tbl_lines = []
