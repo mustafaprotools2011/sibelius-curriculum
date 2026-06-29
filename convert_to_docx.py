@@ -446,7 +446,7 @@ def create_semester_doc(lesson_files, output_name, semester_title):
     doc.add_paragraph()
     p = doc.add_paragraph()
     p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    run = p.add_run("منهج تعليم Sibelius الشامل")
+    run = p.add_run("منهاج شامل لجميع الآلات الموسيقية")
     run.font.size = Pt(18)
     run.font.color.rgb = RGBColor(0x2C, 0x3E, 0x6B)
     

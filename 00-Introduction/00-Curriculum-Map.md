@@ -1,5 +1,6 @@
-# منهاج سيبليوس – Sibelius Curriculum Builder
+# منهاج سيبليوس الشامل – Comprehensive Sibelius Curriculum
 ## خريطة المنهاج الكاملة | Complete Curriculum Map
+## منهاج لجميع الآلات الموسيقية | For All Instruments
 
 ### معلومات المنهاج | Course Information
 
